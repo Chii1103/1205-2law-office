@@ -1,0 +1,152 @@
+body {
+  color: var(--SC);
+  width: 100%;
+}
+
+/* .main-visual h1{
+  color: #fff;
+  font-size: 72px;
+ margin: 8% auto 3% auto;
+} */
+
+
+/* .main-visual h1{
+  color: #fff;
+  font-size:3rem;
+ margin: 8% auto 6% auto;
+} */
+
+/* .main-visual h2{
+ 
+ margin: 4% auto 0 auto;
+} */
+
+.subpage-main-visual {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 300px;
+  padding: 0 8%;
+  /* text-align: center; */
+  min-height: 356px;
+  /* margin: 0 auto; */
+  line-height: 1.8;
+  color: #fff;
+  box-sizing: content-box;
+}
+
+.subpage-mv-h1 {
+  position: absolute;
+  font-size: 3rem;
+  top: 16%;
+  left: 50%;
+  min-width: 300px;
+  text-align: center;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  background: var(--GoldBasic);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subpage-mv-h2 {
+  position: absolute;
+  margin: 11% auto;
+  font-size: 1.2rem;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background: var(--GoldBasic);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  min-width: 300px;
+  line-height: 3.3rem;
+}
+
+.line {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: serif;
+  background: var(--GoldBasic);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+#contact h3 {
+  margin: 6% auto;
+  text-align: center;
+  font-size: clamp(1rem, 3vw, 3rem);
+  font-weight: 700;
+}
+
+.contact-p {
+  margin: 0 auto 30px auto;
+  /* text-align: justify; */
+  word-break: break-all;
+  width: 80vw;
+  line-height: 1.6;
+}
+
+.subpage-main-visual address {
+  font-style: inherit;
+  display: table;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 2.5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.submit-btn {
+  width: 170px;
+  height: 42px;
+  background-color: var(--MC);
+  color: #fff;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 18px;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Smartphone */
+@media screen and (max-width: 599px) {
+
+  .active .top-nav {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.top-nav {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 88%;
+  max-width: 400px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(91, 148, 254, 0.997);
+  z-index: 20;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(100%);
+  transition-property: all;
+  transition-duration: .2s;
+}
+
+  .subpage-mv-h1 {
+    font-size: 2rem;
+  }
+
+}
+

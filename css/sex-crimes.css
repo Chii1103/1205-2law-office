@@ -1,0 +1,81 @@
+.practice-container-wrap {
+  background: var(--GrayBasic);
+  padding: 3% 6%;
+  display: flex;
+  flex-direction: column;
+}
+
+.practice-main-title h2 {
+  margin-bottom: 3%;
+
+}
+
+.practice-main-title p {
+  line-height: 1.6rem;
+margin: 8% auto;
+}
+
+.practice-sub-title h3 {
+  margin: 6% 6% 6% .1%;
+  font-size: clamp(1rem, 1.5rem, 2rem);
+  font-weight: 600;
+}
+
+.practice-each-explanation {
+  width: 55vw;
+  height: fit-content;
+  line-height: 1.3rem;
+  font-size: clamp(0.5rem, 1.2rem, 1.3rem);
+}
+
+.practice-right-wrap {
+  width: 43vw;
+  height: fit-content;
+}
+
+.practice-inner-wrap {
+  display: flex;
+  gap: 3%;
+}
+
+.table-of-contents-wrap,
+.other-practice-wrap,
+.related-cases-wrap {
+  margin: 6%;
+  padding: 6%;
+  line-height: 2rem;
+  background: var(--NavyBasic);
+  color: #fff;
+  border-radius: 3%;
+}
+
+h4 {
+  font-size: clamp(1rem, 1.2rem, 1.3rem);
+
+}
+
+.practice-right-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: clamp(3%, 9%, 15%);
+  margin-bottom: 11%;
+}
+
+
+.practice-right-title-wrap img {
+  width: 16%;
+}
+
+
+
+/* Smartphone */
+@media screen and (max-width: 599px) {
+  .practice-right-wrap {
+    display: none;
+  }
+
+
+  .practice-each-explanation {
+    width: 85vw;
+  }
+}

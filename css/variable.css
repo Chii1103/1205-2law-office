@@ -1,0 +1,11 @@
+
+
+:root{
+  --BlueMV:#0C2197;
+  --NavyBasic:#222D52;
+  --GrayBasic:#F5F4F0;
+  --GoldBasic:
+  -webkit-linear-gradient(0deg, #a38131 0%, #e7c76d 33%, #ffe6c5 62%, #e3c05d 83%, #9d874e 100%);
+--Gold180Gradient:
+ -webkit-linear-gradient(180deg, #a38131 0%, #e7c76d 33%, #ffe6c5 62%, #e3c05d 83%, #9d874e 100%);
+}
